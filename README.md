@@ -22,6 +22,8 @@ $ git config lfs.customtransfer.scp.args $DESTINATION <3>
 
 ## Install
 
+- NOTE: check [Releases page](https://github.com/funatsufumiya/git-lfs-agent-scp/releases) for pre-built binaries (unzip it and move to `/usr/local/bin` or `C:¥Windows¥System32`).
+
 Clone the source and run:
 
 ```sh
