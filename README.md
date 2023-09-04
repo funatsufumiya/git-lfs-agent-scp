@@ -29,6 +29,6 @@ Download pre-built executable binary from [Releases page](https://github.com/fun
 Clone the source and run:
 
 ```sh
-# cargo build --release # just build
+$ cargo build --release # just build
 $ cargo install --path . # build and install
 ```
