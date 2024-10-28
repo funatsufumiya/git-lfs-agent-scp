@@ -9,9 +9,9 @@ This is useful if you do not want to install a `git-lfs` server.
 Configure your local git repository as follows
 
 ```sh
-$ git config lfs.standalonetransferagent scp <1>
-$ git config lfs.customtransfer.scp.path git-lfs-agent-scp <2>
-$ git config lfs.customtransfer.scp.args $DESTINATION <3>
+$ git config lfs.standalonetransferagent scp # <1>
+$ git config lfs.customtransfer.scp.path git-lfs-agent-scp # <2>
+$ git config lfs.customtransfer.scp.args $DESTINATION # <3>
 ```
 1. tell `git-lfs` to use the transfer agent named "scp"
 2. tell `git-lfs` what the name of the program is of the transfer agent
@@ -35,7 +35,7 @@ $ cargo install --path . # build and install
 
 ## Cross build
 
-- from mac m1, build mac x64
+- from mac (arm64), build mac x64
 
 ```bash
 $ rustup target add x86_64-apple-darwin
